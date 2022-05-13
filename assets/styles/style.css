@@ -1,21 +1,22 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body {
+body{
   height: 100vh;
 }
-.container {
+.container{
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  width: 300px;
   margin: 20px;
 }
-.title {
-  margin-right: 10px;
+.title{
   font-size: 20px;
 }
-.options {
-  height: 25px;
+.options{
   width: 150px;
+  height: 60px;
 }

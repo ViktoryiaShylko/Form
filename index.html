@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/assets/styles/style.css" />
-    <title>Document</title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles/style.css"/>
+    <title>Form</title>
+</head>
+<body>
     <div class="container">
-      <div class="title">Выберите тему:</div>
-      <select class="options">
-        <option class="opt">Голубой</option>
-        <option class="opt">Зелёный</option>
-        <option class="opt">Жёлтый</option>
-      </select>
+        <div class="title">Choose the color: </div>
+    <select id="color" onchange="colorPage()">
+        <option disabled selected="selected">Choose the color</option>
+        <option value="blue">blue</option>
+        <option value="red">red</option>
+        <option value="green">green</option>
+        <option value="orange">orange</option>
+    </select>
     </div>
-    <script src="/js/index.js"></script>
-  </body>
+   <script src="/js/index.js"></script> 
+</body>
 </html>
